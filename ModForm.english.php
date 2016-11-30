@@ -10,8 +10,8 @@
  */
 
 $txt['modform_modform'] = 'Moderatör Başvuru Formu ';
-$txt['modform_welcome'] = 'Hoşgeldiniz ';
-$txt['modform_modname'] = 'M.B.Formu';
+$txt['modform_welcome'] = 'Welcome ';
+$txt['modform_modname'] = 'M.B.Form';
 $txt['modform_yeni'] = 'Yeni Moderatör Başvuru Formu';
 $txt['modform_error_name'] = 'İsminizi Yazmak Zorundasınız.';
 $txt['modform_error_surname'] = 'Soyisminizi Yazmak Zorundasınız.';
@@ -25,8 +25,8 @@ $txt['modform_error_duty'] = 'Moderatörlerin Görevlerni Açıklamak Zorundası
 $txt['modform_error_www'] = 'Site Adersini Yazmak Zorundasınız.';
 $txt['modform_error_nick'] = 'Nickinizi Yazmak Zorundasınız.';
 $txt['visual_verification_failed'] = 'Doğrulama kodunu hatalı veya boş bıraktınız';
-$txt['modform_name'] = 'Adı:  ';
-$txt['modform_surname'] = 'Soyadı:  ';
+$txt['modform_name'] = 'Name:  ';
+$txt['modform_surname'] = 'Sorname:  ';
 $txt['modform_message'] = 'Kişisel Mesajı:  ';
 $txt['modform_email'] = 'E-mail adresi:  ';
 $txt['modform_gender'] = 'Cinsiyeti:  ';
