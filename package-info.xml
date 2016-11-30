@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<id>Snrj:ModForm</id>
+	<name>ModForm</name>
+	<version>1.0</version>
+	<homepage>http://smf.konusal.com</homepage>
+	<type>modification</type>
+	<install for="2.0 - 2.0.99">
+		<readme parsebbc="true">readme.txt</readme>
+		<require-file name="ModForm.php" destination="$sourcedir" />
+		<require-file name="Subs-ModForm.php" destination="$sourcedir" />
+		<require-file name="ModForm.template.php" destination="$themedir" />
+		<require-file name="ModForm.turkish-utf8.php" destination="$themedir/languages" />
+		<require-file name="ModForm.turkish.php" destination="$themedir/languages" />
+		<require-file name="ModForm.english.php" destination="$themedir/languages" />
+		<code>hooks.php</code>
+		<redirect url="?action=admin;area=modsettings;sa=ModForm;" timeout="1000"/> 
+	</install>
+	<uninstall for="2.0 - 2.0.99">
+		<remove-file name="$sourcedir/ModForm.php" />
+		<remove-file name="$sourcedir/Subs-ModForm.php" />
+		<remove-file name="$themedir/ModForm.template.php" />
+		<remove-file name="$themedir/languages/ModForm.turkish-utf8.php" />
+		<remove-file name="$themedir/languages/ModForm.turkish.php" />
+		<remove-file name="$themedir/languages/ModForm.english.php" />
+		<code>hooks.php</code>	
+		<redirect url="?action=admin;area=packages;sa=browse" timeout="1000"/> 		
+	</uninstall>
+</package-info>
+
